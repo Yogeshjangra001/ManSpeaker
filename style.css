@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width:400px;
+    height: 100%;
+    /* background-color: darkgray; */
+    margin: auto;
+    padding-top: 80px;
+    ;
+}
+.box{
+    width: 300px;
+    height: 400px;
+    /* background-color: aliceblue; */
+    margin-left: 50px;
+}
+.vdo {
+    width: 300px;
+    height: 380px;
+    overflow: hidden;
+    cursor: pointer;
+}
+video {
+    width: 74%;
+    margin-left: 45px;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.box {
+    width: 300px;
+    height: 413px;
+    /* background-color: aliceblue; */
+    margin-left: 50px;
+}
+button.play {
+    width: 34px;
+    height: 31px;
+    overflow: hidden;
+    cursor: pointer;
+   /* border-color: aliceblue; */
+    border-radius: 50%;
+}
+.delete{
+    width: 34px;
+    cursor: pointer;
+    height: 31px;
+    border-radius: 50%;
+}
+.playbtn{
+    width: 20px;
+    margin-left: 4px;
+}
+button.onimg {
+    position: absolute;
+    top: 247px;
+    left: 603px;
+    width: 65px;
+    height: 63px;
+    z-index: 1;
+    cursor: pointer;
+    background: #f1f1f1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.center{
+    width: 30px;
+    margin-left: 4px;
+}
+@media (max-width:990px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 465px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:964px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 460px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:945px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 450px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:928px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 442px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:915px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 436px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:880px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 415px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:828px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 385px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:786px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 367px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:743px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 345px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    
+    }
+}
+@media (max-width:695px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 323px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;    
+    }
+}
+@media (max-width:600px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 278px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;   
+    }
+}
+@media (max-width:556px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 254px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;  
+    }
+}
+@media (max-width:499px){
+        button.onimg {
+            position: absolute;
+            top: 247px;
+            left: 230px;
+            width: 65px;
+            height: 63px;
+            z-index: 1;
+            cursor: pointer;
+            background: #f1f1f1;
+            border-radius: 50%;
+            overflow: hidden 
+    }
+}
+@media (max-width:470px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 209px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+@media (max-width:400px){
+    button.onimg {
+        position: absolute;
+        top: 247px;
+        left: 179px;
+        width: 65px;
+        height: 63px;
+        z-index: 1;
+        cursor: pointer;
+        background: #f1f1f1;
+        border-radius: 50%;
+        overflow: hidden;
+
+    }
+}
